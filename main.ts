@@ -4,11 +4,13 @@ import { SampleSettingTab } from "src/components/setting-tab";
 // Remember to rename these classes and interfaces!
 
 interface AntiTutorialHellAssistantSettings {
-	mySetting: string;
+	canvasFilePath: string;
+	telegramBotPrivateKey: string;
 }
 
 const DEFAULT_SETTINGS: AntiTutorialHellAssistantSettings = {
-	mySetting: "",
+	canvasFilePath: "",
+	telegramBotPrivateKey: "",
 };
 
 export default class AntiTutorialHellAssistant extends Plugin {
